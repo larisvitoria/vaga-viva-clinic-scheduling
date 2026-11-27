@@ -4,6 +4,19 @@ Repositório-modelo do arquétipo `python-fastapi` do Vaga Viva: a API de um sis
 
 O projeto começa incompleto. Cada missão do seu plano tem testes automatizados que falham até você implementá-la. O contrato de cada missão está em `missoes/`.
 
+## Seu projeto
+
+Este projeto foi montado para uma vaga de estágio que pede Python, Programação orientada a objetos, Testes automatizados, Design de APIs, SQL, PostgreSQL, controle de versão, contêineres e FastAPI. Você vai construir, passo a passo, um sistema de agendamento de clínica, cada missão exercitando uma parte dessas competências. Ao concluí-lo, você terá um projeto real no seu GitHub que mostra como essas habilidades se combinam. O projeto pratica Python e FastAPI, mas não pratica Django nem Flask, que também aparecem na vaga; o que você treina aqui continua valendo para ela.
+
+| Ordem | Missão | Issue |
+| --- | --- | --- |
+| 1 | Cadastro de pacientes | [#1](https://github.com/larisvitoria/vaga-viva-clinic-scheduling/issues/1) |
+| 2 | Pacientes no banco de dados | [#2](https://github.com/larisvitoria/vaga-viva-clinic-scheduling/issues/2) |
+| 3 | Validação e mensagens de erro | [#3](https://github.com/larisvitoria/vaga-viva-clinic-scheduling/issues/3) |
+| 4 | Listagem paginada de consultas | [#4](https://github.com/larisvitoria/vaga-viva-clinic-scheduling/issues/4) |
+| 5 | Regras de agendamento | [#5](https://github.com/larisvitoria/vaga-viva-clinic-scheduling/issues/5) |
+| 6 | Consulta de horários livres | [#6](https://github.com/larisvitoria/vaga-viva-clinic-scheduling/issues/6) |
+
 ## Tecnologias
 
 Python 3.13, FastAPI, Pydantic v2, pydantic-settings, SQLAlchemy 2, psycopg 3, Alembic, PostgreSQL 17, pytest e Testcontainers. As dependências são gerenciadas pelo [uv](https://docs.astral.sh/uv/).
