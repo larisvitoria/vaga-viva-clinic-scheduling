@@ -5,6 +5,15 @@ from sqlalchemy.orm import Mapped, mapped_column
 
 from app.database import Base
 
+class Patient(Base):
+    __tablename__ = "patients"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(String(120))
+    email: Mapped[str] = mapped_column(String(120))
+    phone: Mapped[str] = mapped_column(String(20))
+    birthdate: Mapped[datetime]
+
 
 class Professional(Base):
     __tablename__ = "professionals"
