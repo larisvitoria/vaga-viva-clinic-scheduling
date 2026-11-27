@@ -12,7 +12,7 @@ class Patient(Base):
     name: Mapped[str] = mapped_column(String(120))
     email: Mapped[str] = mapped_column(String(120))
     phone: Mapped[str] = mapped_column(String(20))
-    birthdate: Mapped[datetime]
+    birthDate: Mapped[datetime]
 
 
 class Professional(Base):
