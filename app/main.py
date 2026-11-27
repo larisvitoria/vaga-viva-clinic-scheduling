@@ -4,6 +4,7 @@ from app import health
 from app.errors import configure_error_handlers
 from app.professionals import router as professionals
 from app.reminders import router as reminders
+from app.patients import router as patients
 
 
 def create_app() -> FastAPI:
@@ -13,6 +14,7 @@ def create_app() -> FastAPI:
     app.include_router(health.router)
     app.include_router(professionals.router)
     app.include_router(reminders.router)
+    app.include_router(patients.router)
     return app
 
 
