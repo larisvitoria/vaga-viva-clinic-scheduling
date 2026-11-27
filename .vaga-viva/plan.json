@@ -1,0 +1,5 @@
+{
+  "archetype" : "python-fastapi",
+  "domain" : "clinic-scheduling",
+  "missions" : [ "patients-api", "persistence", "input-validation", "pagination", "scheduling-rules", "availability-query" ]
+}
